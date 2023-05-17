@@ -1,0 +1,106 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:transparent;
+  }
+
+  .Pagina{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(189, 189, 189);
+    border: 1px solid;
+  }
+
+.Navigatiebalk{
+    height: 80px;
+    border-bottom: 1px solid;
+}
+
+.NavbarGameKnoppen{
+    position: relative;
+    margin-left: 50px;
+}
+
+.NavbarGameKnoppen button{
+    position: relative;
+    padding:  10px 25px;
+    top: 20px;
+    margin-right: 20px;
+}
+
+.NavbarKnopGamepicker button{
+    position: relative;
+    padding:  10px 25px;
+    margin-right: 50px;
+    top: -19px;
+    float: right;
+}
+
+.GameInformatie{
+    background-color: transparent;
+    width: 70%;
+
+}
+
+.InformatieCSGOParagraph{
+    margin-left: 50px;
+}
+
+.CSGOHeader h1{
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.GameInfoKnoppen{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.LijstGames{
+    position:absolute;
+    background-color: transparent;
+    right: 0;
+    margin-right: 300px;
+    top: 120px;
+    font-size: 17px;
+}
+
+.ListInfoGame{
+    margin-top: 80px;
+}
+
+.PlaatjesSectie{
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.Plaatjes img{
+    margin-top: 20px;
+    width: 180px;
+    height: 150px;
+}
+
+.SysteemEisen{
+    margin-left: 50px;
+}
+
+.SysteemEisen h1{
+    font-size: 23px;
+}
+
+.OrderedLijstSysteemEisen{
+    margin-left: 25px;
+}
+
+.RecentieHeader h1{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.OrderedLijstRecenties{
+    margin-left: 25px;
+}
+

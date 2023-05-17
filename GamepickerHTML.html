@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="GamepickerCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="Main_gamePicker">
+    <section id="game-page" style="width:100%; display: flex; flex-direction: column; align-items: center;">
+        <div class="options-bar">
+            <div>
+
+                <select id="genre-dropdown">
+                    <option value="alle">Alle genres</option>
+                </select>
+                <select id="rating-dropdown">
+                    <option value="alle">Alle ratingen</option>
+                    <option value="1">1 Ster</option>
+                    <option value="2">2 Ster</option>
+                    <option value="3">3 Ster</option>
+                    <option value="4">4 Ster</option>
+                    <option value="5">5 Ster</option>
+                </select>
+                <input id="price-input" name="price" placeholder="Prijs">
+                <button onclick="applyFilter()">Pas filter toe</button>
+            </div>
+            <div>
+                <button onclick="berekenTotaal()">Afrekenen</button>
+            </div>
+        </div>
+        <div class="lijst" id="game-list">
+        </div>
+    </section>
+    <section class="mandje-page" id="mandje-page" style="display: none" ;>
+        <div class="options-bar">
+            <button onclick="terugNaarGamePage()">Terug</button>
+
+            <button onclick="berekenTotaal()">Bereken totaal opnieuw</button>
+        </div>
+
+        <div class="lijst" id="shop-list">
+        </div>
+        <div class="prijs-label">
+            <button id="prijs-totaal"></button>
+        </div>
+    </section>
+    <script src="./javascriptgamepick.js"></script>
+</body>
+</html>
